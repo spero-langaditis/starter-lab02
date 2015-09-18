@@ -11,11 +11,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  *
  * @author spero
  */
-class About extends CI_Controller {
+class About extends Application {
     //put your code here
     
     public function index()
 	{
-		$this->load->view('about');
+		$this->data['pagebody'] = 'about'; $this->render();
 	}
 }
