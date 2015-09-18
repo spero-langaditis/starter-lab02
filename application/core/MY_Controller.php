@@ -18,7 +18,7 @@ class Application extends CI_Controller {
     {
 	parent::__construct();
 	$this->data = array();
-	$this->data['pageptitle'] = 'Demo Contact Manager';
+	$this->data['pagetitle'] = 'Demo Contact Manager';
     }
     /**
      * Render this page
